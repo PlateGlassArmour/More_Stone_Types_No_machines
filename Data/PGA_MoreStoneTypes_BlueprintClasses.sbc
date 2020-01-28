@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlueprintClassEntries>
+
+    <Entry Class="BasicComponents" BlueprintSubtypeId="SoilSeparationBasic" />
+
+    <Entry Class="Ingots" BlueprintSubtypeId="SoilSeparation" />
+    <Entry Class="Ingots" BlueprintSubtypeId="SandstoneOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="LimestoneOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="ShaleOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="DolomiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="ChertOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="LateriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="BauxiteOreToIngot" />
+
+    <Entry Class="CommonMetals" BlueprintSubtypeId="SoilSeparation" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="SandstoneOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="LimestoneOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="ShaleOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="DolomiteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="ChertOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="LateriteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="BauxiteOreToIngot" />
+    
+  </BlueprintClassEntries>
+</Definitions>
