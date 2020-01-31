@@ -1,7 +1,21 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
+  <BlueprintClasses>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>GravelProcessing</SubtypeId>
+      </Id>
+      <DisplayName>GravelProcessing</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+	</Class>
+  </BlueprintClasses>
   <BlueprintClassEntries>
+  
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/GravelProcessor" />
 
     <Entry Class="BasicComponents" BlueprintSubtypeId="SoilSeparationBasic" />
 
@@ -13,6 +27,7 @@
     <Entry Class="Ingots" BlueprintSubtypeId="ChertOreToIngot" />
     <Entry Class="Ingots" BlueprintSubtypeId="LateriteOreToIngot" />
     <Entry Class="Ingots" BlueprintSubtypeId="BauxiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="BasaltOreToIngot" />
 
     <Entry Class="CommonMetals" BlueprintSubtypeId="SoilSeparation" />
     <Entry Class="CommonMetals" BlueprintSubtypeId="SandstoneOreToIngot" />
@@ -22,6 +37,15 @@
     <Entry Class="CommonMetals" BlueprintSubtypeId="ChertOreToIngot" />
     <Entry Class="CommonMetals" BlueprintSubtypeId="LateriteOreToIngot" />
     <Entry Class="CommonMetals" BlueprintSubtypeId="BauxiteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="BasaltOreToIngot" />
+	
+	<Entry Class="GravelProcessing" BlueprintSubtypeId="GravelToIron" />
+	<Entry Class="GravelProcessing" BlueprintSubtypeId="GravelToNickel" />
+	<Entry Class="GravelProcessing" BlueprintSubtypeId="GravelToSilicon" />
+	<Entry Class="GravelProcessing" BlueprintSubtypeId="GravelToMagnesium" />
+	<Entry Class="GravelProcessing" BlueprintSubtypeId="GravelToCobalt" />
+	<Entry Class="GravelProcessing" BlueprintSubtypeId="GravelToSilver" />
+	<Entry Class="GravelProcessing" BlueprintSubtypeId="GravelToGold" />
     
   </BlueprintClassEntries>
 </Definitions>
